@@ -1,0 +1,198 @@
+/* 
+
+  Black 1 - #0B090A
+  Black 2 - #161A1D
+  Red 1 - #BA181B
+  Red 2 - #E5383B
+
+*/
+
+/* Generico */
+
+body {
+  font-family: "Epilogue", sans-serif;
+  color: #0b090a;
+}
+
+.button {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 20px 40px;
+  font-size: 1rem;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.buttonSmall {
+  padding: 12px 24px;
+  font-size: 0.9rem;
+}
+
+.buttonPrimary {
+  background-color: #e5383b;
+}
+
+.buttonPrimary:hover {
+  background-color: #ba181b;
+}
+
+.buttonOutline {
+  border: 2px solid #ffffff;
+  text-transform: uppercase;
+}
+
+.buttonOutline:hover {
+  border-color: #d9d9d9;
+  color: #d9d9d9;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.overTitle {
+  color: #e5383b;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 44px;
+  line-height: 56px;
+  font-weight: 700;
+}
+
+/* Layout */
+
+#headerContainer {
+  background-color: #0b090a;
+}
+
+.header {
+  color: #ffffff;
+  padding: 24px 72px;
+
+  display: flex;
+  align-items: center; /* Alinhar de forma vertical */
+  justify-content: space-between; /* Alinhar de forma horizontal */
+}
+
+/* Hero Section */
+
+#heroContainer {
+  background-color: #0b090a;
+  color: #ffffff;
+  padding: 0 72px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+
+  gap: 32px;
+}
+
+.heroText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 16px; /* Espaçamento */
+  padding: 96px 0;
+}
+.heroImg {
+  flex: 1;
+  align-self: flex-end; /* Alinhar imagem ao fundo*/
+}
+
+.heroImg img {
+  max-width: 100%;
+}
+
+.heroText__title {
+  font-size: 56px;
+  line-height: 64px; /* Espaçamento entre linhas */
+  font-weight: 700;
+}
+
+.heroText__paragraph {
+  font-size: 20px;
+  line-height: 28px; /* Espaçamento entre linhas */
+  max-width: 520px;
+}
+
+/* Services Section */
+
+#servicesContainer {
+  padding: 96px 72px;
+}
+
+.servicesList {
+  margin-top: 48px;
+  display: flex;
+  gap: 32px;
+}
+
+.serviceCard {
+  background-color: #f5f3f4;
+  border: 2px solid #d3d3d3;
+}
+
+.serviceCard img {
+  width: 100%;
+}
+
+.serviceCard__Text {
+  padding: 32px;
+}
+
+.serviceCard__Text h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+
+.serviceCard__Text p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Location Section */
+
+#locationContainer {
+  background-color: #f5f3f4;
+}
+
+#locationContainer .location {
+  padding: 96px 0 48px;
+}
+
+#locationContainer address {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #0b090a;
+  color: #ffffff;
+  padding: 48px 72px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerLogoCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
